@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+button {
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(15, 14, 14);
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    width: 210px;
+    height: 42px;
+    cursor: pointer;
+    margin: 25px;
+    padding: 10px;
+    
+}
+
+
+
+
+
+.itens-cima img {
+    height: 50px;
+}
+
+
+
+.itens-cima a {
+    color: rgb(211, 211, 211);
+    font-weight: bold;
+    font-size: 23px;
+
+}
+
+
+.itens-cima {
+
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 35px;
+    font-size: 25px;
+    cursor: pointer;
+    height: 25PX;
+
+}
+
+
+.itens-cima a:hover {
+
+    
+    color: rgba(168, 168, 168, 0.651);
+    
+    transition: 1, 5s ease-in-out;
+    cursor: pointer;
+    font-size: 24px;
+    
+}
+
+ body {
+
+
+    align-items: center;
+    padding: 0px;
+    height: 100vh;
+
+
+
+
+
+}
+
+.caixa-mae {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: 75vh;
+    justify-content: space-between;
+
+
+
+
+}
+
+.caixa1 {
+
+    width: 50%;
+    margin: 20px;
+    align-items: end;
+    text-align: left;
+    float: left;
+
+
+
+}
+
+.caixa1 img {
+
+    height: 200px;
+
+}
+
+.caixa2 img {
+    width: 80px;
+}
+
+
+.caixa2 {
+    width: 50%;
+    margin: 50px;
+    align-items: center;
+    text-align: center;
+    float: right;
+    z-index: 45px;
+
+}
+
+
+.link-whatsapp {
+
+    right: 40px;
+    width: 5%;
+    position: fixed;
+    align-items: center;
+    bottom: 20px;
+    margin: 10px;
+    float: right;
+
+
+}
+
+
+
+
+
+.video-de-fundo {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+}
+
+video {
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+
+}
+
+p {
+    color: rgb(192, 192, 192);
+    /*font-weight: bold;*/
+    font-size: 20PX;
+    width: 320px;
+
+
+}
+
+.mascara {
+
+    height: 100vh;
+    width: 100vw;
+    /*background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);*/
+    background: rgb(4, 1, 2);
+    background: linear-gradient(90deg, rgba(4, 1, 2, 0.8295693277310925) 100%, rgba(3, 2, 2, 1) 100%, rgba(0, 0, 0, 1) 100%, rgba(0, 0, 0, 0.07886904761904767) 100%, rgba(0, 0, 0, 1) 100%);
+    position: fixed;
+    top: 0;
+
+
+}
+
+
+
+
+
+button:hover {
+    color: rgb(63, 62, 62);
+    width: 212px;
+    height: 44px;
+
+}
+
+.formlario-fale-conosco {
+
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 30px;
+    left: -317px;
+    padding: 25px;
+    border-radius: 7px;
+    gap: 20px;
+    color: black;
+    transition: left 1s ease-in-out;
+}
+
+input {
+    height: 40px;
+    border-radius: 7px;
+    border: 1px solid gray;
+    outline-color: #18d80f;
+    font-size: 15px;
+    padding: 7px;
+    font-weight: bold;
+
+}
+
+
+textarea {
+    
+    width: 270px;
+    height: 120px;
+    border-radius: 7px;
+    border: 1px solid gray;
+    outline-color: #18d80f;
+    font-size:15px;
+    padding: 7px;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+
+
+.mascara-formulario {
+
+
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.7952586206896551) 90%, rgba(69, 69, 85, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    z-index: 0;
+    visibility: hidden;
+    transition: visibility 1s ease-in-out;
+
+}
+
+@media(max-width: 700px) {
+
+    .itens-cima {
+
+
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        margin: 25px;
+        font-size: 15px;
+        cursor: pointer;
+        height: 15PX;
+
+
+
+    }
+
+    .itens-cima a {
+        font-weight: bold;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .text {
+        display: none;
+        flex-direction: column padding 10px;
+
+
+    }
+
+    .logo-config {
+
+        display: none;
+    }
+
+    .texto2 {
+        display: none;
+
+    }
+
+    .caixa1 {
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        width: 10px;
+        padding: 10px;
+    }
+
+
+
+    p {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+
+    }
+
+    .mascara {
+
+        width: 100%;
+
+    }
+
+    bottom {
+        width: 30%;
+
+    }
+
+}
